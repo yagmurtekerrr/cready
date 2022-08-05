@@ -11,12 +11,12 @@
     }
     
     .navbar {
+        max-width: 1170px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 102px;
-        margin-left: 333px;
-        margin-right: 319px;
+        margin: 0 auto;
     }
     
     .divider {
@@ -191,16 +191,17 @@
     }
     
     .clients {
+        max-width: 1170px;
         height: 568px;
         display: flex;
+        justify-content: center;
         align-items: center;
+        margin: 0 auto;
     }
     
     .clients-p {
-        margin-right: 30px;
+        margin: 0 auto;
         display: block;
-        margin-left: 333px;
-        margin-right: auto;
     }
     
     .clients-p h1 {
@@ -216,8 +217,7 @@
     
     .clients .clients-img {
         display: block;
-        margin-right: 333px;
-        margin-left: auto;
+        margin: 0 auto;
     }
     
     .think {
@@ -380,16 +380,10 @@
     
     .navbar2 {
         padding-top: 74px;
-        width: 1440px;
+        max-width: 1170px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        margin-left: 333px;
-        margin-right: 319px;
-    }
-    
-    .footer .navigation {
-        margin-right: 319px;
+        margin: 0 auto;
     }
     
     .footer .navigation ul li {
@@ -407,21 +401,30 @@
     }
     
     .footer-p {
+        max-width: 1170px;
         font-size: 14px;
         color: #fff;
-        margin-top: 85px;
-        width: 300px;
-        text-align: center;
-        margin-left: 333px;
+        padding-top: 85px;
+        padding-bottom: 18px;
+        margin: 0 auto;
+    }
+    
+    .footer-p p {
+        display: flex;
+        justify-content: start;
     }
     
     .footer-gnrl-logo {
-        width: 1440px;
+        max-width: 1170px;
         display: flex;
         justify-content: space-between;
-        margin-left: 333px;
+        margin: 0 auto;
     }
     
-    .footer-scl-logos {
-        margin-right: 319px;
+    .footer-gnrl-logo img {
+        margin-right: 28px;
+    }
+    
+    .footer-scl-logos img {
+        margin-left: 28px;
     }
