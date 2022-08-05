@@ -48,7 +48,7 @@
     }
     
     .showcase-img img {
-        border: none;
+        border: 16px solid #939597;
         margin: 0;
     }
     
@@ -89,7 +89,6 @@
     }
     
     .showcase-img {
-        border: 16px solid #939597;
         margin-right: 135px;
     }
     
